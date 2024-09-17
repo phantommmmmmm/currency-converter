@@ -1,4 +1,4 @@
-console.log("hello");
+// console.log("hello");
 const countryList = {
   AED: "AE", // AE shows the map
   AFN: "AF",
