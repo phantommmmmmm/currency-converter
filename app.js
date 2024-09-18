@@ -1,11 +1,17 @@
 // console.log("hello");
 const base_Url="https://2024-03-06.currency-api.pages.dev/v1/currencies/";
+//const base_Url="https://2024-03-06.currency-api.pages.dev/v1/currencies/inr.json";
 
+//const dropdown=document.getElementsByClassName("dropdown select");
 const dropdown=document.querySelectorAll(".dropdown select");
 const formFlag=document.getElementById("fromImg");
 const toFlag=document.getElementById("toImg");
 const btn=document.getElementById("btn");
 const message=document.getElementById("msg");
+
+// for (code in countryList){
+//     console.log(code,countryList[code]);
+// }
 
 for(let select of dropdown){
     for(let currCode in countryList){
